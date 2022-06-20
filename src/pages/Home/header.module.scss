@@ -1,5 +1,26 @@
+/* Обычный */
+@font-face {
+	font-family: 'AmaticSC-Bold'; 
+	src: url('../../fonts/AmaticSC-Regular.ttf'); 
+}
 .body{
     height: 100px;
     width: 960px;
     background-color: #FF9200;
+    text-align: center;
+    margin-bottom: 27px;
+    p{
+        margin: 0;
+        font-family: AmaticSC-Bold, sans-serif;
+    }
+    .logo{
+        font-size: 48px;
+        font-weight: 600;
+        line-height: 54px;
+        
+    }
+    .description{
+        font-size: 36px;
+        line-height: 42px;
+    }
 }

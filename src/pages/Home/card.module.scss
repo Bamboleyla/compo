@@ -1,0 +1,21 @@
+.body{
+    width: 223px;
+    height: 300px;
+    border: 2px solid #A65F00;
+    border-radius: 10px;
+    background-color: #FFC373;
+    position: relative;
+}
+.views{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    .counter{
+        margin-left: 5px;
+        font-size: 16px;
+        line-height: 16px;
+        color: white;
+    }
+}
