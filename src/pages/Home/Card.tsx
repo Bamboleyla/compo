@@ -4,6 +4,13 @@ import styles from "./card.module.scss";
 export const Card: FC = () => {
   return (
     <div className={styles.body}>
+      <div className={styles.content}>
+        <div className={styles.wrap}>
+          <button>
+            <span>ON</span>
+          </button>
+        </div>
+      </div>
       <div className={styles.views}>
         <svg
           width="32"
