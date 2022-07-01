@@ -8,6 +8,10 @@
   background-color: #ffc373;
   display: flex;
   justify-content: space-between;
+  a {
+    text-decoration: none;
+    color: black;
+  }
   p {
     margin: 0;
     font-family: AmaticSC-Bold, sans-serif;
@@ -28,10 +32,6 @@
     .profile {
       height: 50px;
       width: 50px;
-    }
-    .create {
-      height: 30px;
-      width: 30px;
     }
   }
 }
