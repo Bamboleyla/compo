@@ -9,7 +9,7 @@ export const CreateButton: FC = () => {
 
   return {
     ...(icon === "create" ? (
-      <NavLink to="/create" style={{ height: "30px" }}>
+      <NavLink to="/create" style={{ height: "30px" }} onClick={()=>setIcon('save')}>
         <img src={createSVG} alt="create" className={styles.create} />
       </NavLink>
     ) : (
